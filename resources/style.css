@@ -1,0 +1,98 @@
+body{
+  background-color: aliceblue;
+  margin: 0px;
+  font-family: Georgia, serif;
+}
+
+/*Header styles*/
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 70px;
+  font-weight: normal;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 70px;
+}
+
+.logo h2{
+  border-right: 1px solid black;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.nav{
+  padding-right: 20px;
+}
+
+.nav a{
+  color: black;
+  padding: 5px;
+}
+
+/*Main styles*/
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;;
+  align-items: center;
+  height: 900px;
+}
+
+.hook{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 50px;
+}
+
+
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 300px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  width: 800px;
+}
+
+.question{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-weight: bold;
+}
+
+.form span{
+  margin-bottom: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.answer{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
